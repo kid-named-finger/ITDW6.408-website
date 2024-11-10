@@ -24,7 +24,7 @@ function FAQ() {
                     ).map( 
                         question => { 
                             return( 
-                            <div className='bg-warning p-3 m-2' key={id++}>
+                            <div className='bg-info p-3 m-2' key={id++}>
                                 <h4>{question.question}</h4>
                                 <p>{question.answer}</p>
                             </div>

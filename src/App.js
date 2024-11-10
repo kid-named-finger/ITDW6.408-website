@@ -14,9 +14,9 @@ function App() {
         <Header/>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/advancedScript" element={<AdvancedScript/>} />
+          <Route path="/advancedJS" element={<AdvancedScript/>} />
           <Route path="/faq" element={<FAQ />}/>
-          <Route path="/invoice" element={<Invoice />}/>
+          <Route path="/invoice" element={<Invoice/>}></Route>
         </Routes>
         <Footer/>
       </Router>
